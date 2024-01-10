@@ -5,7 +5,7 @@ import telebot
 from bs4 import BeautifulSoup
 
 
-TOKEN = '6497650850:AAH12sQjy2ikA_7MWCvi3U_lEwmn3tCHExw'
+TOKEN = ''
 def get_data(url: str = 'https://www.cbr.ru/currency_base/daily/') -> dict[str, dict]:
     result = {}
 
